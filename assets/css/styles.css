@@ -1,0 +1,94 @@
+body {
+	background-color: #E5E5E5;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	font-family: sans-serif;
+	background-color: white;
+	width: 680px;
+	height: 408px;
+	border-radius: 34px;
+	padding-top: 34px;
+	padding-bottom: 34px;
+}
+
+.container-img-block {
+	display: flex;
+	justify-content: center;
+	gap: 17px;
+}
+
+.container-img {
+	position: relative;
+	background-color: #F6F6F6;
+	width: 302px;
+	height: 268px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.icon-t-shirt {
+	width: 250px;
+	height: 250px;
+}
+
+.icon-heart {
+	position: absolute;
+	top: 20px;
+	right: 34px;
+	width: 46px;
+	height: 46px;
+}
+
+.list {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 5px;
+	padding: 0;
+	font-size: 20px;
+}
+
+ul {
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+li {
+	list-style-type: none;
+}
+
+h2 {
+	font-size: 28px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 25px;
+	height: 25px;
+}
+
+.container-list {
+	display: flex;
+	justify-content: start;
+}
+
+.rating {
+	margin-right: 10px;
+}
+
+.views {
+	color: gray;
+}
+
+.price {
+	font-size: 35px;
+	font-weight: bold;
+}
+
