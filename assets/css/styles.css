@@ -4,6 +4,10 @@ body {
 	justify-content: center;
 }
 
+li {
+	list-style-type: none;
+}
+
 .container {
 	font-family: sans-serif;
 	background-color: white;
@@ -14,35 +18,44 @@ body {
 	padding-bottom: 34px;
 }
 
-.container-img-block {
-	display: flex;
-	justify-content: center;
-	gap: 17px;
+.icon-heart-empty {
+	font-size: 27px;
+	color: white;
 }
 
-.container-img {
-	position: relative;
-	background-color: #EBEBEB;
-	width: 302px;
-	height: 268px;
-	border-radius: 30px;
+.icon-star {
+	color: orange;
+}
+
+button {
+	position: absolute;
+	border: none;
+	width: 55px;
+	height: 55px;
+	top: 12px;
+	right: 12px;
+	background-color: #D9D9D9;
+	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 
+.container-img {
+	position: relative;
+	background-color: #EBEBEB;
+	width: 300px;
+	height: 260px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .icon-t-shirt {
 	width: 250px;
 	height: 250px;
-}
-
-.icon-heart {
-	position: absolute;
-	top: 20px;
-	right: 34px;
-	width: 46px;
-	height: 46px;
 }
 
 .list {
@@ -54,29 +67,15 @@ body {
 	font-size: 20px;
 }
 
-ul {
-	padding-left: 30px;
-	margin-bottom: 10px;
-}
-
-li {
-	list-style-type: none;
+.icon-star:before {
+	margin: 0 !important;
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 29px;
 	margin: 0;
 	margin-bottom: 10px;
-}
-
-img {
-	width: 25px;
-	height: 25px;
-}
-
-.container-list {
-	display: flex;
-	justify-content: start;
+	margin-top: 10px;
 }
 
 .rating {
@@ -90,5 +89,10 @@ img {
 .price {
 	font-size: 35px;
 	font-weight: bold;
+	margin-top: 15px;
 }
 
+.catalog {
+	display: flex;
+	gap: 15px;
+}
